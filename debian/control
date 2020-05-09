@@ -1,0 +1,12 @@
+Source: ros-melodic-rqt-virtual-joy
+Section: misc
+Priority: optional
+Maintainer: Hikaru Sugiura <hikaru.sugiura@whill.inc>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-catkin, ros-melodic-rospy, ros-melodic-rqt-gui, ros-melodic-rqt-gui-py, ros-melodic-sensor-msgs, ros-melodic-std-msgs
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-melodic-rqt-virtual-joy
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-rospy, ros-melodic-rqt-gui, ros-melodic-rqt-gui-py, ros-melodic-sensor-msgs, ros-melodic-std-msgs
+Description: The rqt_virtual_joy package
